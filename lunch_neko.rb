@@ -4,6 +4,8 @@ require 'json'
 
 class LunchNeko < SlackRubyBot::Bot
 
+  SlackRubyBot::Client.logger.level = Logger::WARN
+
   command 'menus' do |client, data, match|
     client.say(text: transform_menus_to_slack_message(fetch_menus), channel: data.channel)
   end
