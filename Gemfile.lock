@@ -1,12 +1,12 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (6.0.1)
+    activesupport (6.0.3.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-      zeitwerk (~> 2.2)
+      zeitwerk (~> 2.2, >= 2.2.2)
     async (1.23.0)
       console (~> 1.0)
       nio4r (~> 2.3)
@@ -16,7 +16,7 @@ GEM
     async-websocket (0.8.0)
       async-io
       websocket-driver (~> 0.7.0)
-    concurrent-ruby (1.1.5)
+    concurrent-ruby (1.1.6)
     console (1.5.0)
     domain_name (0.5.20180417)
       unf (>= 0.0.5, < 1.0.0)
@@ -28,12 +28,12 @@ GEM
     hashie (4.0.0)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
-    i18n (1.7.0)
+    i18n (1.8.2)
       concurrent-ruby (~> 1.0)
     mime-types (3.2.2)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2018.0812)
-    minitest (5.13.0)
+    minitest (5.14.1)
     multipart-post (2.1.1)
     netrc (0.11.0)
     nio4r (2.5.2)
@@ -53,7 +53,7 @@ GEM
       websocket-driver
     thread_safe (0.3.6)
     timers (4.3.0)
-    tzinfo (1.2.5)
+    tzinfo (1.2.7)
       thread_safe (~> 0.1)
     unf (0.1.4)
       unf_ext
@@ -61,7 +61,7 @@ GEM
     websocket-driver (0.7.1)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.4)
-    zeitwerk (2.2.1)
+    zeitwerk (2.3.0)
 
 PLATFORMS
   ruby
